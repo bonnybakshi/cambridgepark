@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <link rel="stylesheet" href="css/camera.css"> <!-- camera slideshow-->  
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' rel='stylesheet'>
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css"> <!-- My Style -->  
+    <!-- camera slideshow -->
+    <script src="js/camera.js"></script>
+    <!-- jQuery Easing & customized jQuery Mobile required for camera slideshow -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.mobile.customized.min.js"></script>
+    
+    <script>
+       $(document).ready(function(){
+        jQuery('#camera_wrap').camera({
+            loader: 'pie',
+            pagination: true ,
+            minHeight: '200',
+            thumbnails: true,
+            height: '41%',
+            caption: true,
+            navigation: true,
+            fx: 'mosaicReverse'
+          }); 
+        });
+    </script>
+    </head>
+     
+<body>
+     
+<!--################ header ######################--> 
+<header>
+<!-- Static navbar -->
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Togle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            <a class="navbar-brand" id= "mainLogo" href="index.html">Cambridge Park Drive </a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contacts.html">Contacts</a></li> 
+            </ul>
+          </div><!--/nav-collapse -->
+        </div>
+    </div>
+</header>
+<!--camera slideshow-->
+<div class="container">
+<div class="row">
+    <div class="col-md-12">
+        <div class="slider_wrapper ">
+        <div class="camera_wrap" id="camera_wrap">
+            <div data-thumb="images/slidethumb/maintiny.jpg" data-src="images/apt/main.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Cambridge Park Appartments
+                </div>
+            </div>
+            <div data-thumb="images/slidethumb/lobbytiny.jpg" data-src="images/apt/lobby.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Lobby
+                </div>
+            </div>
+            <div data-thumb="images/slidethumb/lounge2tiny.jpg" data-src="images/apt/lounge2.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Lounge 
+                </div>
+            </div>
+            <div data-thumb="images/slidethumb/courtyardtiny.jpg" data-src="images/apt/courtyard.jpg">
+                <div class="camera_caption fadeFromBottom">
+                  Courtyard 
+                </div>
+            </div>           
+        </div>
+    </div>
+  </div>
+</div> <!-- end of row -->
+</div><!-- end of container -->
+
+<!--About Cambridge park-->
+<div id="about">
+  <div class="container">
+    <div class="col-md-12">
+      <div class="center">
+        <h3>Living at Cambridge Park</h3>
+        <p>A modern mid-rise located right across the street from Alewife Station, Cambridge Park Apartments presents the prime place to live and thrive in North Cambridge. There’s an amazing variety of activities to enjoy here. Walk through the amazing collection of shops and restaurants at Harvard Square. Families with pets can enjoy a socializing in the huge dog park. Don't forget to head to our state-of-the-art fitness center and heated lap pool for a healthy workout. With wonderful amenities, spacious interiors and exceptional service, the homes at Cambridge Park are equipped to suit you perfectly.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yvmouh6SQa0" frameborder="0" allowfullscreen></iframe>
+        <div class="alright"></div>
+      </div>
+    </div>
+    
+  </div>
+  <div class="horiz"></div>
+</div> 
+
+
+<!--Cambridge park features-->
+<div class="container">
+<div class="row center" id="feature">
+    <div class="col-xs-4">
+        <figure>
+            <img src="images/pet.png" alt="img01">
+            <figcaption>Pet Friendly</figcaption>
+        </figure>
+      
+    </div>
+    <div class="col-xs-4">
+        <figure>
+            <img src="images/smoke.png" alt="img01">
+            <figcaption>Smoke Free</figcaption>
+        </figure>
+    </div>
+    <div class="col-xs-4">
+        <figure>
+            <img src="images/pool.png" alt="img01">
+            <figcaption>Outdoor Swiming Pool</figcaption>
+        </figure>
+    </div>
+
+</div> <!-- end of row -->
+<div class="horiz"></div>
+</div><!-- end of container -->
+
+
+<!-- Cambridge park features Continued -->
+<div class="container">
+<div class="row center">
+    <div class="col-sm-6 ">
+    <h4>Community Amenities</h4>
+        <ul class="list">
+            <li>Gas Grilling Area </li>
+            <li>Club Suite</li>
+            <li>Concierge Service</li>
+            <li>24-hour Fitness Center</li>
+            <li>Package Service with Notifications</li>
+            <li>WiFi Lounge</li>
+            <li>Assigned Parking</li>
+            <li>Children's Playroom</li>
+        </ul>
+    </div>
+    <div class="col-sm-6 ">
+    <h4>Apartment Amenities</h4>
+        <ul class="list">
+            <li>In-home Washer and Dryer</li>
+            <li>Air Conditioning</li>
+            <li>Walk-in Closets</li>
+            <li>Heat and Hot Water Included</li>
+            <li>Additional Storage Available</li>
+            <li>Floor-to-ceiling Windows</li>
+            <li>Eat-in Kitchen</li>
+            <li>Stainless Steel Appliances Available</li>
+        </ul>
+    </div>
+</div>
+</div>
+
+<!--About Cambridge park-->
+
+  <div class="container">
+    <div class="col-md-12">
+      <div class="center">
+        <h4><img src="images/handicap-icon.png" alt="img01">Making Individual Living Enhancements</h4>
+        <p>Equity Residential is committed to working with our residents with disabilities to enhance their living environment.</p>
+        <div class="alright"></div>
+      </div>
+    </div>
+  </div> 
+
+<!--################ Footer ######################--> 
+<footer>   
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12 center">
+          <a href="https://www.facebook.com/Cambridge-Park-Apartments-167732859906302/" target="_blank"><img src="images/facebook.png"/></a> <br>             
+          &copy; 2016 Rajrupa Bakshi. 
+        </div>
+ 
+      </div>
+    </div> 
+    </div>  
+</footer>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+  <script src="js/thumbnailGridEffects.js"></script>
+
+</body>
+</html>
+
