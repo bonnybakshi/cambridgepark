@@ -5,45 +5,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      
-    <link rel="stylesheet" href="css/camera.css"> <!-- camera slideshow-->
-    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/form.css"> 
     <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="css/style.css"> <!-- My Style -->
-    <link rel="stylesheet" href="css/form.css"> <!-- My Style -->
-     
-    <!-- camera slideshow -->
-    <script src="js/camera.js"></script>
-    <!-- jQuery Easing & customized jQuery Mobile required for camera slideshow -->
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.mobile.customized.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     </script>
 </head>
      
 <body>
-     
+<div class="main">   
 <!--################ header ######################--> 
-<header>
-<!-- Static navbar -->
-    <div class="navbar navbar-inverse navbar-static-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Togle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            <a class="navbar-brand" id= "mainLogo" href="index.html">Cambridge Park Drive </a>
+<header>  
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 id= "mainLogo"><a href="home.html">Cambridge Park Drive </a></h1>
+            <p id="add">30 Cambridge Park Dr. Cambridge MA 02140</p>
+        
+        <div id="menu">
+            <nav>
+                <ul >
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                   </ul>
+            </nav>
+            <div class="clear"></div>
         </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="current"><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contacts.html">Contacts</a></li> 
-            </ul>
-          </div><!--/nav-collapse -->
-        </div>
-    </div>
+      </div>      
+   </div>
+</div><!-- end of container -->
 </header>
+
 
 <div class="container">
     <div class="row ">
@@ -61,7 +54,7 @@
 <!-- ########## Contact form #############-->
     <div class="row ">
         <div class="col-md-12">
-        <h4 class="head1">Contact Form</h4>
+        <h3 >Contact Form</h3>
             <form id="form">
                 <div class="form-group">           
                 <label class="name">
@@ -94,13 +87,13 @@
     </div> <!-- end of row -->  
 </div><!-- end of container -->
 
-
+<div class="horiz"></div>
+</div> 
 <!--################ Footer ######################--> 
 <footer>   
     <div class="container">
     <div class="row">
-        <div class="col-md-12 center">
-          <a href="https://www.facebook.com/Cambridge-Park-Apartments-167732859906302/" target="_blank"><img src="images/facebook.png"/></a> <br>             
+        <div class="col-md-12 center">             
           &copy; 2016 Rajrupa Bakshi. 
         </div>
  
@@ -108,8 +101,7 @@
     </div> 
     </div>  
 </footer>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 </body>
 </html>
 

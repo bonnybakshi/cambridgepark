@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-     <head>
-     <title>Gallery</title>
-     <meta charset="utf-8">
+    <head>
+    <title>Home</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      
     <!--  Touch Optimized Gallery Plugin  -->
     <link rel="stylesheet" href="touchTouch/touchTouch.css">
-    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' rel='stylesheet'>
     <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
     <!--  Touch Optimized Gallery Plugin  --> 
     <script src="touchTouch/touchTouch.jquery.js"></script>
     <script src="js/jquery.easing.1.3.js"></script> 
@@ -25,30 +25,28 @@
      </head>
      
 <body>
-     
+<div class="main">   
 <!--################ header ######################--> 
-<header>
-<!-- Static navbar -->
-    <div class="navbar navbar-inverse navbar-static-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Togle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            <a class="navbar-brand" id= "mainLogo" href="index.html">Cambridge Park Drive </a>
+<header>  
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 id= "mainLogo"><a href="home.html">Cambridge Park Drive </a></h1>
+            <p id="add">30 Cambridge Park Dr. Cambridge MA 02140</p>
+        
+        <div id="menu">
+            <nav>
+                <ul >
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                   </ul>
+            </nav>
+            <div class="clear"></div>
         </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="current"><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contacts.html">Contacts</a></li> 
-            </ul>
-          </div><!--/nav-collapse -->
-        </div>
-    </div>
+      </div>      
+   </div>
+</div><!-- end of container -->
 </header>
 
 <!--==============================Content=================================-->
@@ -86,13 +84,13 @@
 </div>
 </div>
 
-
+<div class="horiz"></div>
+</div> 
 <!--################ Footer ######################--> 
 <footer>   
     <div class="container">
     <div class="row">
-        <div class="col-md-12 center">
-          <a href="https://www.facebook.com/Cambridge-Park-Apartments-167732859906302/" target="_blank"><img src="images/facebook.png"/></a> <br>             
+        <div class="col-md-12 center">           
           &copy; 2016 Rajrupa Bakshi. 
         </div>
  

@@ -8,3 +8,5 @@ Cambridge Park Appartments website
 * [JQuery TouchTouch](https://github.com/martinaglv/touchTouch)
 * [Google Fonts](https://fonts.google.com/)
 * [Bootstrap](http://getbootstrap.com/)
+
+© 2016 Rajrupa Bakshi, All Rights Reserved.
